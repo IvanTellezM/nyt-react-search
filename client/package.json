@@ -2,13 +2,15 @@
   "name": "nyt-react-search",
   "version": "0.1.0",
   "private": true,
-  "main": "server.js",
   "homepage": "https://IvanTellezM.github.io/nyt-react-search",
+  "proxy": "http://localhost:3000/",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-scripts": "1.1.4"
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "axios": "^0.18.0"
   },
   "scripts": {
     "predeploy": "npm run build",
